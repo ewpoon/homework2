@@ -1,0 +1,63 @@
+body {
+    font-family: "Lucida Grande", sans-serif;
+    color: #FFFFFF;
+    background: #000000;
+}
+h1 {
+    font-size: 64px;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    text-shadow: 5px 5px 2px #808080;
+}
+p{
+    font-size: 24px;
+    padding-top: 20px;
+}
+img {
+    text-align: center;
+    width: 525px;
+    height: auto; 
+    /* proper aspect ratio? */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div {
+    height: 150px;
+    /* will automatically be taller if needed */
+    padding: 25px 25px 25px 25px;
+}
+
+#red {
+    background: #FF0000;
+    text-align: right;
+}
+
+#blue {
+    background: #0000FF;
+    text-align: left;
+}
+
+#yellow{ 
+    background: #FFFF00;
+    text-align: right;
+    color: #000000;
+    /* Header 2 and paragraph text is black
+    Header 2 drop shadow is #c7e2c7 with the same parameters as above */
+}
+#yellow h2{
+    text-shadow: 5px 5px 2px #c7e2c7;
+}
+
+#green {
+    background: #00FF00;
+    text-align: left;
+}
+
+footer{
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right:10px;
+}
